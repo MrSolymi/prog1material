@@ -1,0 +1,9 @@
+{
+	"name": "prog1material",
+	"compatibility_date": "2026-10-05",
+	"main": ".svelte-kit/cloudflare/_worker.js",
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".svelte-kit/cloudflare"
+	}
+}
