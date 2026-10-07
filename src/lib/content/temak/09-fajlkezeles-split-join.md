@@ -4,7 +4,7 @@ Ebben a témakörben röviden áttekintjük, hogyan olvashatunk szöveges fájlt
 
 ## Fájl olvasása (röviden)
 
-A szöveges fájlok olvasására a `java.nio.file` csomag `Files` osztálya a legegyszerűbb. Az `IOException` kivételt kezelni kell, ezért `try` blokkba tesszük (a kivételekről a 16. és 18. témakörben részletesebben lesz szó).
+A szöveges fájlok olvasására a `java.nio.file` csomag `Files` osztálya a legegyszerűbb. Az `IOException` kivételt kezelni kell, ezért `try` blokkba tesszük (a kivételekről a 17. és 19. témakörben részletesebben lesz szó).
 
 ```java
 import java.io.IOException;

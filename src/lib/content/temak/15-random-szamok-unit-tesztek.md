@@ -1,4 +1,4 @@
-# 14. Random számok (részletesen), egyszerű unit tesztek
+# 15. Random számok (részletesen), egyszerű unit tesztek
 
 Ebben a témakörben két dologgal foglalkozunk: a véletlen számok részletesebb előállításával a `java.util.Random` osztállyal, majd az egyszerű unit tesztek írásának alapjaival az `assert` kulcsszó és a JUnit keretrendszer segítségével.
 

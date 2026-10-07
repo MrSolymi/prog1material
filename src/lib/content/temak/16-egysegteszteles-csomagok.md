@@ -1,4 +1,4 @@
-# 15. Egységtesztelés, csomagok használata
+# 16. Egységtesztelés, csomagok használata
 
 Ebben a témakörben két különböző dologgal foglalkozunk: az egységtesztelés elveivel és gyakorlati szerkezetével, valamint a Java csomagok (package) használatával, amelyekkel a kódot logikai egységekbe szervezhetjük.
 
@@ -94,7 +94,7 @@ public class Program {
 
 **Magyarázat:** A `hu.egyetem.pelda` csomagnév egy könyvtárszerkezetnek felel meg: `hu/egyetem/pelda/`. Az `import` után a teljes név (`hu.egyetem.pelda.Szamla`) áll, vagy használhatunk csillagot (`import hu.egyetem.pelda.*;`), amely a csomag összes osztályát beimportálja. A `java.lang` csomag automatikusan elérhető, ezért a `String` vagy a `Math` osztályhoz nem kell importálás.
 
-Csomagon belül a `public` tagok más csomagból is elérhetők, a csomag-szintű (default) láthatóságról a 16. témakörben lesz szó.
+Csomagon belül a `public` tagok más csomagból is elérhetők, a csomag-szintű (default) láthatóságról a 17. témakörben lesz szó.
 
 ## Összefoglalás
 

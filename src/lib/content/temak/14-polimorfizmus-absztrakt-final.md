@@ -1,10 +1,10 @@
-# 13. Objektumok összehasonlítása, polimorfizmus, absztrakt és final osztályok
+# 14. Objektumok összehasonlítása, polimorfizmus, absztrakt és final osztályok
 
 Ebben a témakörben három fontos objektumorientált fogalmat nézünk meg: a polimorfizmust, amely lehetővé teszi, hogy különböző típusú objektumokat egységesen kezeljünk, az absztrakt osztályokat és metódusokat, valamint a `final` kulcsszó osztályra és metódusra vonatkozó jelentését. Előtte röviden áttekintjük az objektumok összehasonlítását.
 
 ## Objektumok összehasonlítása
 
-Az `==` operátor referenciákat hasonlít össze, az `equals` metódus pedig a tartalmat (ha megfelelően felül van írva). A tartalmi összehasonlítás részleteit az előző témakörben, a `Pont` példán láttuk. Rendezéshez a `Comparable` interfészt használjuk, amelyről a 18. témakörben lesz szó.
+Az `==` operátor referenciákat hasonlít össze, az `equals` metódus pedig a tartalmat (ha megfelelően felül van írva). A tartalmi összehasonlítás részleteit az előző témakörben, a `Pont` példán láttuk. Rendezéshez a `Comparable` interfészt használjuk, amelyről a 19. témakörben lesz szó.
 
 ## Polimorfizmus
 

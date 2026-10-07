@@ -1,4 +1,4 @@
-# 18. Interfészek, a kivételek fajtái, fájlkezelés részletesen, saját objektumok rendezése
+# 19. Interfészek, a kivételek fajtái, fájlkezelés részletesen, saját objektumok rendezése
 
 Ebben a témakörben négy témát járunk körül: az interfészeket, amelyek viselkedést írnak elő osztályoknak; a kivételek fajtáit; a fájlkezelés részletesebb eszközeit; végül a saját objektumok rendezését a `Comparable` és a `Comparator` segítségével.
 

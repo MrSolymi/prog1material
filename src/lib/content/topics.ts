@@ -19,16 +19,17 @@ export const topics: Topic[] = [
 	{ order: 7, slug: 'lista-muveletek-wrapper-osztalyok', title: 'Lista műveletek, wrapper osztályok, típuskonverziók', file: '07-lista-muveletek-wrapper-osztalyok' },
 	{ order: 8, slug: 'parancssori-argumentumok-character-stringbuilder', title: 'Parancssori argumentumok, Character, StringBuilder', file: '08-parancssori-argumentumok-character-stringbuilder' },
 	{ order: 9, slug: 'fajlkezeles-split-join', title: 'Fájlkezelés, split/join', file: '09-fajlkezeles-split-join' },
-	{ order: 10, slug: 'jvm-tobbdimenzios-tombok-jar', title: 'A JVM, többdimenziós tömbök, JAR fájlok', file: '10-jvm-tobbdimenzios-tombok-jar' },
-	{ order: 11, slug: 'oroklodes-assert', title: 'Öröklődés, assert-ek', file: '11-oroklodes-assert' },
-	{ order: 12, slug: 'oroklodes-object-osztaly-felulis', title: 'Öröklődés (folyt.), Object osztály, felülírás', file: '12-oroklodes-object-osztaly-felulis' },
-	{ order: 13, slug: 'polimorfizmus-absztrakt-final', title: 'Polimorfizmus, absztrakt és final osztályok', file: '13-polimorfizmus-absztrakt-final' },
-	{ order: 14, slug: 'random-szamok-unit-tesztek', title: 'Random számok, unit tesztek', file: '14-random-szamok-unit-tesztek' },
-	{ order: 15, slug: 'egysegteszteles-csomagok', title: 'Egységtesztelés, csomagok', file: '15-egysegteszteles-csomagok' },
-	{ order: 16, slug: 'lathatosag-kivetelek', title: 'Protected és default láthatóság, kivételkezelés', file: '16-lathatosag-kivetelek' },
-	{ order: 17, slug: 'set-map-kollekciok', title: 'Kollekciók: Set, Map', file: '17-set-map-kollekciok' },
-	{ order: 18, slug: 'interfeszek-kivetelek-fajlkezeles-rendezes', title: 'Interfészek, kivételfajták, fájlkezelés, rendezés', file: '18-interfeszek-kivetelek-fajlkezeles-rendezes' },
-	{ order: 19, slug: 'generikus-osztalyok', title: 'Generikus osztályok, Java vége', file: '19-generikus-osztalyok' }
+	{ order: 10, slug: 'zh1-felkeszules', title: 'ZH #1 – Felkészülés', file: '10-zh1-felkeszules' },
+	{ order: 11, slug: 'jvm-tobbdimenzios-tombok-jar', title: 'A JVM, többdimenziós tömbök, JAR fájlok', file: '11-jvm-tobbdimenzios-tombok-jar' },
+	{ order: 12, slug: 'oroklodes-assert', title: 'Öröklődés, assert-ek', file: '12-oroklodes-assert' },
+	{ order: 13, slug: 'oroklodes-object-osztaly-felulis', title: 'Öröklődés (folyt.), Object osztály, felülírás', file: '13-oroklodes-object-osztaly-felulis' },
+	{ order: 14, slug: 'polimorfizmus-absztrakt-final', title: 'Polimorfizmus, absztrakt és final osztályok', file: '14-polimorfizmus-absztrakt-final' },
+	{ order: 15, slug: 'random-szamok-unit-tesztek', title: 'Random számok, unit tesztek', file: '15-random-szamok-unit-tesztek' },
+	{ order: 16, slug: 'egysegteszteles-csomagok', title: 'Egységtesztelés, csomagok', file: '16-egysegteszteles-csomagok' },
+	{ order: 17, slug: 'lathatosag-kivetelek', title: 'Protected és default láthatóság, kivételkezelés', file: '17-lathatosag-kivetelek' },
+	{ order: 18, slug: 'set-map-kollekciok', title: 'Kollekciók: Set, Map', file: '18-set-map-kollekciok' },
+	{ order: 19, slug: 'interfeszek-kivetelek-fajlkezeles-rendezes', title: 'Interfészek, kivételfajták, fájlkezelés, rendezés', file: '19-interfeszek-kivetelek-fajlkezeles-rendezes' },
+	{ order: 20, slug: 'generikus-osztalyok', title: 'Generikus osztályok, Java vége', file: '20-generikus-osztalyok' }
 ];
 
 export const topicModules = import.meta.glob<{ default: import('svelte').Component }>(

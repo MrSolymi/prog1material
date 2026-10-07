@@ -1,4 +1,4 @@
-# 19. Generikus osztályok, a Java vége
+# 20. Generikus osztályok, a Java vége
 
 A generikus programozás lehetővé teszi, hogy osztályokat és metódusokat típusparaméterrel írjunk meg, így ugyanaz a kód különböző típusokkal is működik, a típusbiztonságot pedig a fordító ellenőrzi. Ezzel a témakörrel a tananyag záró része is elkészül: a generikus osztályok után röviden áttekintjük, mire érdemes továbblépni a Java tanulásában.
 

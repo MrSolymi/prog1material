@@ -1,4 +1,4 @@
-# 16. További láthatósági szintek (protected és default), kivételek, kivételkezelés
+# 17. További láthatósági szintek (protected és default), kivételek, kivételkezelés
 
 A 4. témakörben a `public` és `private` láthatóságot néztük meg. Most a másik két szintet, a `protected`-et és a csomag-szintű (default) láthatóságot ismerjük meg, majd áttérünk a kivételek kezelésére, amellyel a váratlan helyzeteket szabályozottan tudjuk lekezelni.
 

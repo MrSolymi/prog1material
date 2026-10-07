@@ -1,4 +1,4 @@
-# 10. A JVM működése, többdimenziós tömbök, random számok, JAR fájlok
+# 11. A JVM működése, többdimenziós tömbök, random számok, JAR fájlok
 
 Ebben a témakörben a Java futtatási környezetének (JVM) alapjait nézzük meg, majd a többdimenziós tömböket, a véletlen számok rövid kezelését, végül a JAR fájlok készítését.
 
@@ -60,7 +60,7 @@ public class VeletlenSzamok {
 }
 ```
 
-**Magyarázat:** A `Math.random() * 6` a 0 és 6 közötti tartományba esik, a `(int)` levágja a tizedesrészt, a `+ 1` pedig eltolja az eredményt 1 és 6 közé. A részletesebb használatot a 14. témakörben tárgyaljuk.
+**Magyarázat:** A `Math.random() * 6` a 0 és 6 közötti tartományba esik, a `(int)` levágja a tizedesrészt, a `+ 1` pedig eltolja az eredményt 1 és 6 közé. A részletesebb használatot a 15. témakörben tárgyaljuk.
 
 ## JAR fájlok készítése
 

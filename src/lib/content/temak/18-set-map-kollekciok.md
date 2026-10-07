@@ -1,4 +1,4 @@
-# 17. További kollekciók: Set (HashSet), Map (HashMap)
+# 18. További kollekciók: Set (HashSet), Map (HashMap)
 
 Az `ArrayList` mellett a Java gyűjteménykerete (Collections Framework) további hasznos típusokat kínál. Ebben a témakörben két fontos gyűjteményt nézünk meg: a `Set`-et, amely egyedi elemeket tárol, és a `Map`-et, amely kulcs–érték párokat tárol.
 
@@ -26,7 +26,7 @@ public class HashSetPelda {
 
 **Magyarázat:** Az `add` visszatérési értéke `false`, ha az elem már benne volt, ezért a második `"piros"` nem változtat a halmazon. A `contains` és a `remove` gyorsan működik, mert a `HashSet` belsőleg hash-táblát használ.
 
-Mivel a `HashSet` a `hashCode` és az `equals` metódusokra épül, saját osztály esetén ezeket megfelelően fel kell írni (ahogy a 12. témakörben a `Pont` osztálynál láttuk). Különben két tartalmilag azonos objektum is bekerülhet a halmazba.
+Mivel a `HashSet` a `hashCode` és az `equals` metódusokra épül, saját osztály esetén ezeket megfelelően fel kell írni (ahogy a 13. témakörben a `Pont` osztálynál láttuk). Különben két tartalmilag azonos objektum is bekerülhet a halmazba.
 
 ## Map – HashMap
 

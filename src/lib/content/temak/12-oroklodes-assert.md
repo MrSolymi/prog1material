@@ -1,4 +1,4 @@
-# 11. Öröklődés, assert-ek
+# 12. Öröklődés, assert-ek
 
 Az öröklődés az objektumorientált programozás egyik alapelve: egy osztály átveheti egy másik osztály tulajdonságait és metódusait, és ezekre új funkciókat építhet. Ebben a témakörben az öröklődés alapjait nézzük meg, majd az `assert` kulcsszóval történő ellenőrzés használatát.
 
@@ -46,7 +46,7 @@ public class Teszt {
 
 A konstruktorok nem öröklődnek. Ha a szülő osztálynak van paraméteres konstruktora, a gyermek konstruktorában a `super(...)` hívással kell azt meghívni. Ha a gyermek konstruktorában nincs explicit `super` hívás, a Java automatikusan a paraméter nélküli `super()` hívást illeszti be, ami hibát ad, ha a szülőben nincs ilyen konstruktor.
 
-Java-ban egy osztálynak csak **egy** közvetlen szülője lehet (egyszeres öröklődés), de egy osztály több interfészt is megvalósíthat (ezt a 18. témakörben tárgyaljuk).
+Java-ban egy osztálynak csak **egy** közvetlen szülője lehet (egyszeres öröklődés), de egy osztály több interfészt is megvalósíthat (ezt a 19. témakörben tárgyaljuk).
 
 ## Assert-ek használata
 

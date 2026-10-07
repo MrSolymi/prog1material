@@ -1,4 +1,4 @@
-# 12. Öröklődés (folyt.), az Object osztály, metódus felülírása
+# 13. Öröklődés (folyt.), az Object osztály, metódus felülírása
 
 Az előző témakörben megismertük az öröklődés alapjait. Most a fontosabb részletekkel folytatjuk: a metódusok felülírásával (overriding), az `Object` osztállyal, amely minden Java osztály közvetlen vagy közvetett őse, és a `toString`, `equals` és `hashCode` metódusokkal.
 
